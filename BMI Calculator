@@ -1,4 +1,4 @@
-H=input("Enter Height: ")
-w=input("Enter your weight: ")
-BMI=int(w)/int(H*H)
-print(BMI)
+H=input("Enter your Height in metre: ")
+w=input("Enter your weight in Kg: ")
+BMI=float(w)/float(H)**2
+print(int(BMI))
